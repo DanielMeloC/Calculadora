@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jamsystem.mycalculadora.MainActivity"
+    android:weightSum="1">
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Ingrese el primer numero"
+        />
+
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Ingrese el segundo numero"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/sumar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Sumar"
+            android:textSize="15sp"
+            />
+
+        <Button
+            android:id="@+id/restar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Restar"
+            android:textSize="15sp"
+            />
+        <Button
+            android:id="@+id/multiplicar"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Mult"
+            android:textSize="15sp"
+            />
+        <Button
+            android:id="@+id/dividir"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:text="Div"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:text="Respuesta"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textIsSelectable="false"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:verticalScrollbarPosition="defaultPosition" />
+        android:gravity="center"
+        android:textSize="120sp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Universidad Manuela Beltran"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:layout_weight="0.20" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jaime Morales"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:layout_weight="0.20" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jose Melo"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:layout_weight="0.20" />
+
+
+
+</LinearLayout>
